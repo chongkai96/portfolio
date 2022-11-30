@@ -2,8 +2,7 @@ import React from "react";
 
 const Experience = () => {
   return (
-    <header className="App-header">
-    </header>
+    <section id='experience'>Experience</section>
   );
 }
 

@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/header.css"
 import Resume from "./resume"
+import Socials from "./socials";
 
 const Header = () => {
   return (
@@ -10,6 +11,8 @@ const Header = () => {
         <h1>Tan Chong Kai</h1>
         <h5 className="text-light">Frontend Developer</h5>
         <Resume/>
+        <Socials/>
+        <a href="#contact" className="scroll__down">Scroll Down</a>
       </div>
     </header>
   );
