@@ -1,6 +1,7 @@
 import React from "react";
-import {HiOutlineMagnifyingGlass} from "react-icons/hi2"
-import {GiNotebook} from "react-icons/gi"
+import {MdFindInPage} from "react-icons/md";
+import {GiNotebook} from "react-icons/gi";
+import {HiLightBulb} from "react-icons/hi";
 
 const About = () => {
   return (
@@ -11,11 +12,11 @@ const About = () => {
       <div className="about__content">
         <div className="about__cards">
           <article className="about_card">
-            <HiOutlineMagnifyingGlass/>
+            <MdFindInPage/>
             <h5>Detail-Oriented</h5>
           </article>
           <article className="about_card">
-            <HiOutlineMagnifyingGlass/>
+            <HiLightBulb/>
             <h5>Positive Mindset</h5>
           </article>
           <article className="about_card">
